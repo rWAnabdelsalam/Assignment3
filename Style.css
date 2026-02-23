@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container, div {
+    background: transparent;
+    width: 450px;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: #46a2d1;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #358bb8;
+}
+
+#session-count-text {
+    background-color: #4a71c0;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .container {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode button {
+    background-color: #ff8c00 !important;
+    color: #ffffff !important;
+}
+body.dark-mode h1 {
+    color: #ffffff !important;
+}
